@@ -50,8 +50,7 @@
         <img class="slides fade" https://docs.google.com/document/d/15GyEiyR6Lru2kl4EYO-FF-hiRinPU3SNX8DyzWGLpyM/edit?usp=sharing alt="Another sweet memory">
     </div>
     
-    <p class="love-message">You are my heart, my soul, my everything. I love you forever. 💛</p>
-    
+    <p class="love-message">Isa, you are the love of my life, my heart, and my greatest blessing. These past three years with you have been the best of my life, filled with love, laughter, and moments I’ll cherish forever. Every day by your side reminds me how lucky I am to have you—your kindness, your strength, and the way you love me so effortlessly. You make my world brighter, my heart fuller, and my future something I can’t wait to share with you. I love you more than words can ever express, and I can’t wait for all the years ahead, hand in hand. Happy Valentine’s Day, my love. ❤️ </p>
     <script>
         let slideIndex = 0;
         showSlides();
