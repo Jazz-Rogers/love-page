@@ -45,9 +45,9 @@
     <h1>My Love for You is Infinite ❤️</h1>
     
     <div class="slideshow-container">
-        <img class="slides fade" src="images/photo1.jpg" alt="Us together">
-        <img class="slides fade" src="images/photo2.jpg" alt="A special moment">
-        <img class="slides fade" src="images/photo3.jpg" alt="Another sweet memory">
+        <img class="slides fade" https://docs.google.com/document/d/14kflgWnmv7fqfIou3XxkMyhKw5_bEudszic-oa9iufY/edit?usp=drive_link alt="From the very beginning">
+        <img class="slides fade" https://docs.google.com/document/d/155QCS9sIk0jrQMoSJtVhpqr-xlVV9Xf7tyHy9E4z-7U/edit?usp=sharing alt="A special moment">
+        <img class="slides fade" https://docs.google.com/document/d/15GyEiyR6Lru2kl4EYO-FF-hiRinPU3SNX8DyzWGLpyM/edit?usp=sharing alt="Another sweet memory">
     </div>
     
     <p class="love-message">You are my heart, my soul, my everything. I love you forever. 💛</p>
