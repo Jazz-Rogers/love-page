@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My Love</title>
+
+    <style>
+
+        body {
+
+            background-color: #000;
+
+            color: gold;
+
+            font-family: 'Arial', sans-serif;
+
+            text-align: center;
+
+            padding: 20px;
+
+        }
+
+        h1 {
+
+            font-size: 3rem;
+
+            text-shadow: 0 0 10px gold;
+
+        }
+
+        .slideshow-container {
+
+            position: relative;
+
+            max-width: 600px;
+
+            margin: auto;
+
+        }
+
+        .slides {
+
+            display: none;
+
+            width: 100%;
+
+            border-radius: 15px;
+
+            box-shadow: 0 0 15px gold;
+
+        }
+
+        .fade {
+
+            animation: fadeEffect 2s;
+
+        }
+
+        @keyframes fadeEffect {
+
+            from {opacity: 0.4}
+
+            to {opacity: 1}
+
+        }
+
+        .love-message {
+
+            font-size: 1.5rem;
+
+            margin-top: 20px;
+
+            text-shadow: 0 0 5px gold;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>My Love for You is Infinite ❤️</h1>
+
+   
+
+    <div class="slideshow-container">
+
+        <img class="slides fade" src="https://drive.google.com/uc?export=view&id=1ciq0f6ahV5SI4BXzcUS71qDEf-vf3yj8" alt="Happy">
+
+        <img class="slides fade" src="https://drive.google.com/uc?export=view&id=1p26aYlkWr1rxhMNF2NlWJev2LeDjKa-O" alt="Valentines">
+
+        <img class="slides fade" src="https://drive.google.com/uc?export=view&id=1sSL34b1nIpHA7z7gDZ4xcNs4mqS4rKtO" alt="Day">
+
+    </div>
+
+   
+
+    <p class="love-message">Isa, you are the love of my life, my heart, and my greatest blessing. These past three years with you have been the best of my life, filled with love, laughter, and moments I’ll cherish forever. Every day by your side reminds me how lucky I am to have you—your kindness, your strength, and the way you love me so effortlessly. You make my world brighter, my heart fuller, and my future something I can’t wait to share with you. I love you more than words can ever express, and I can’t wait for all the years ahead, hand in hand. Happy Valentine’s Day, my love. ❤️ </p>
+
+   
+
+    <script>
+
+        let slideIndex = 0;
+
+        showSlides();
+
+        function showSlides() {
+
+            let slides = document.getElementsByClassName("slides");
+
+            for (let i = 0; i < slides.length; i++) {
+
+                slides[i].style.display = "none";
+
+            }
+
+            slideIndex++;
+
+            if (slideIndex > slides.length) {slideIndex = 1}
+
+            slides[slideIndex - 1].style.display = "block";
+
+            setTimeout(showSlides, 3000);
+
+        }
+
+    </script>
+
+</body>
+
+</html>
